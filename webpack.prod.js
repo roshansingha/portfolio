@@ -13,6 +13,7 @@ module.exports = merge(common, {
     filename: '[name].[contentHash].bundle.js',
     path: path.resolve(__dirname, 'dist')
   },
+  
   optimization: {
     minimizer: [
       new OptimizeCssAssetsPlugin(),
